@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELITE - Esquema 5x1 Manco</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./WhatsApp Image 2025-07-02 at 18.18.32.jpeg" type="image/x-icon">
+
+</head>
+<body class="background">
+    <div class="court-container">
+        <div class="court-outer">
+            <div class="court-border">
+                <div id="court" class="court">
+                    <div class="player player1" id="player1">L</div>
+                    <div class="player player2" id="player2">P</div>
+                    <div class="player player3" id="player3">P</div>
+                    <div class="player player4" id="player4">C</div>
+                    <div class="player player5" id="player5">P</div>
+                    <div class="player player6" id="player6">P</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-controls">
+        <div class="top-controls">
+            <button id="baseForm">Formação base</button>
+            <button id="receiveServe">Recebendo o saque</button>
+            <button id="attacking">Movimento de ataque</button>
+        </div>
+        <div class="middle-controls">
+            <button id="defending-left">Defendendo esquerda</button>
+            <button id="defending-center">Defendendo central</button>
+            <button id="defending-right">Defendendo direita</button>            
+        </div>
+        <div class="bottom-controls">
+            <button id="prevBtn">&#9664;</button>
+            <button id="nextBtn">&#9654;</button>
+        </div>
+    </div>
+    <div class="text-input-container">
+        <div>
+            <label for="playerText1">L:</label>
+            <input type="text" id="playerText1" oninput="UpdatePlayerText(1)">
+        </div>
+        <div>
+            <label for="playerText2">P:</label>
+            <input type="text" id="playerText2" oninput="UpdatePlayerText(2)">
+        </div>
+        <div>
+            <label for="playerText3">P:</label>
+            <input type="text" id="playerText3" oninput="UpdatePlayerText(3)">
+        </div>
+        <div>
+            <label for="playerText4">C:</label>
+            <input type="text" id="playerText4" oninput="UpdatePlayerText(4)">
+        </div>
+        <div>
+            <label for="playerText5">P:</label>
+            <input type="text" id="playerText5" oninput="UpdatePlayerText(5)">
+        </div>
+        <div>
+            <label for="playerText6">P:</label>
+            <input type="text" id="playerText6" oninput="UpdatePlayerText(6)">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+	
